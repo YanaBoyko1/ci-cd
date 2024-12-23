@@ -10,6 +10,7 @@ on:
   
   pull_request:
     branches: [ "python" ]
+    types: [opened, synchronize]
     
 
 jobs:
