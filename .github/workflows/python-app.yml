@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
   
   pull_request:
-    branches: [ "main", "python" ]
+    branches: ["python" ]
     types: [opened, synchronize]
     
 
